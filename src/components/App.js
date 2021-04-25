@@ -6,8 +6,11 @@ function App() {
   return (
     <div>
         <NavBar color='black' title="Giphy Search" />
-        <GifSearch/>
-        <GifContainer/>
+        <div className="ui container">
+          <GifSearch setGifList={setGifList}/>
+          <br />
+          <GifContainer gifList={gifList}/>
+        </div>
     </div>
   );
 }
