@@ -10,9 +10,9 @@ There is a good amount of starter code created for you. Take some time to draw o
 
 ## Features
 
-When a user first load the app, they should see 3 gifs from today's [Trending Gifs](https://developers.giphy.com/docs/api/endpoint#trending).
+When a user first load the app, they should see 3 gifs from today's [Trending Gifs](https://developers.giphy.com/docs/api/endpoint#trending) **as an unordered list**.
 
-In addition, the user should be able to [search for gifs](https://developers.giphy.com/docs/api/endpoint#search). You app should update the gifs on the page, displaying 3 at a time, **as the user is typing their query**. In other words, your app should update the gifs on the page after every key stroke. 
+In addition, the user should be able to [search for gifs](https://developers.giphy.com/docs/api/endpoint#search). You app should update the gifs on the page, displaying 3 at a time, **every time the user clicks the Find Gifs button**. 
 
 ## API 
 
