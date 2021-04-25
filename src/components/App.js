@@ -5,7 +5,7 @@ import GifSearch from './GifSearch'
 function App() {
   return (
     <div>
-        <NavBar color='black' title="Giphy Search" />
+        <NavBar color='white' title="Giphy Search" />
         <div className="ui container">
           <GifSearch />
           <br />
