@@ -1,6 +1,6 @@
 function GifContainer() {
     return (
-        <div></div>
+        <ul></ul>
     )
 }
 
