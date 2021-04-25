@@ -7,9 +7,9 @@ function App() {
     <div>
         <NavBar color='black' title="Giphy Search" />
         <div className="ui container">
-          <GifSearch setGifList={setGifList}/>
+          <GifSearch />
           <br />
-          <GifContainer gifList={gifList}/>
+          <GifContainer />
         </div>
     </div>
   );
