@@ -4,6 +4,10 @@ You will be building out the following project:
 
 ![demo](./demo.gif)
 
+## Set Up
+
+Run `npm install` to download dependency. Then run `npm start` to run the app.
+
 ## Starter Code
 
 There is a good amount of starter code created for you. Take some time to draw out the component hierarchy. Take your time to really understand each component and how they work will with each other. **You are allowed to create as many additional components as you want**.
