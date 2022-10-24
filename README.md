@@ -20,7 +20,7 @@ In addition, the user should be able to [search for gifs](https://developers.gip
 
 ## API 
 
-You will be using the [Giphy API](https://developers.giphy.com/docs/api#quick-start-guide).
+You will be using the [Giphy API](https://developers.giphy.com/docs/api#quick-start-guide) and will need to register for an API key.
 
 The endpoints you can use are:
 
