@@ -1,4 +1,4 @@
-# Giphy Search (useEffect) Lab 
+# Giphy Search Lab 
 
 You will be building out the following project:
 
