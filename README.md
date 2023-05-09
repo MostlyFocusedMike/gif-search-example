@@ -13,7 +13,7 @@ You will be building out the following project using React's `useEffect` and `us
 
 ## Set Up
 
-Run `npm install` to download dependency. Then run `npm start` to run the app.
+Run `npm install` to download dependency. Then run `npm run dev` to run the app.
 
 ## Starter Code
 
