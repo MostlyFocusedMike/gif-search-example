@@ -1,6 +1,6 @@
 # Giphy Search Lab 
 
-You will be building out the following project using React's `useEffect` and `useContext` hooks. You **must** fetch to the Giphy API and you **must** manage state using Context for this assignment. 
+You will be building out the following project using React's `useEffect` hook. You **must** fetch to the Giphy API.
 
 ## Demo of App
 
