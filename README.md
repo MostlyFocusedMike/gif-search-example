@@ -10,6 +10,7 @@ You will be building out the following project using React's `useEffect` hook. Y
 
 1. When a user first load the app, they should see 3 gifs from today's [Trending Gifs](https://developers.giphy.com/docs/api/endpoint#trending) **as an unordered list**.
 2. The user should be able to [search for gifs](https://developers.giphy.com/docs/api/endpoint#search). You app should update the gifs on the page, displaying 3 at a time, **every time the user clicks the Find Gifs button**. 
+3. As a bonus, modify the `useEffect` hook to be retriggered whenever the user input changes.
 
 ## Set Up
 
