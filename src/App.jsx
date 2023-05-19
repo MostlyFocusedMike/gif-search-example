@@ -1,18 +1,29 @@
-import NavBar from './components/NavBar'
-import GifContainer from './components/GifContainer'
-import GifSearch from './components/GifSearch'
+import { useEffect, useState } from 'react';
+import GifContainer from './components/GifContainer';
+import GifSearchForm from './components/GifSearchForm';
+import GifSearchFormUncontrolled from './components/GifSearchFormUncontrolled';
+import { getSearchedGifs, getTrendingGifs } from './giphy-service';
 
-function App() {
-  return (
-    <div>
-      <NavBar color='black' title="Giphy Search" />
-      <div className="ui container">
-        <GifSearch />
-        <br />
-        <GifContainer />
-      </div>
-    </div>
-  );
+export default function App() {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [gifs, setGifs] = useState([]);
+
+  useEffect(() => {
+    getTrendingGifs().then(setGifs);
+  }, []);
+
+  useEffect(() => {
+    if (searchTerm) getSearchedGifs(searchTerm).then(setGifs);
+  }, [searchTerm]);
+
+  return <>
+    <header>
+      <h1>Giphy Search Engine</h1>
+    </header>
+    <main>
+      <GifSearchForm setSearchTerm={setSearchTerm} />
+      <GifSearchFormUncontrolled setSearchTerm={setSearchTerm} />
+      <GifContainer gifs={gifs} />
+    </main>
+  </>;
 }
-
-export default App;

@@ -12,6 +12,7 @@ module.exports = {
   plugins: ['react-refresh', 'react'],
   rules: {
     'react-refresh/only-export-components': 'warn',
-    'react/prop-types': 0
+    'react/prop-types': 0,
+    'react/no-unescaped-entities': 'off',
   },
 }
